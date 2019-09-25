@@ -1,0 +1,7 @@
+<include>
+  <extension name="kamailio_loop">
+    <condition field="destination_number" expression="^7(\d+)$">
+      <action application="bridge" data="sofia/gateway/kamailio/$1"/>
+    </condition>
+  </extension>
+</include>
