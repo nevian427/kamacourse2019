@@ -13,7 +13,7 @@
   <!--/// extension for inbound calls: *optional* same as username, if blank ///-->
   <!--<param name="extension" value="cluecon"/>-->
   <!--/// proxy host: *optional* same as realm, if blank ///-->
-    <param name="proxy" value="192.168.10.14"/>
+    <param name="proxy" value="10.168.10.14"/>
   <!--/// send register to this proxy: *optional* same as proxy, if blank ///-->
   <!--<param name="register-proxy" value="mysbc.com"/>-->
   <!--/// expire in seconds: *optional* 3600, if blank ///-->
